@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: T_Boss_R
       objectReference: {fileID: 0}
+    - target: {fileID: -7899125348420581972, guid: 3c05494e72196914e8a75e6f8ac65c8b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c25a5dceaaa8224898213ada2bb1fc4, type: 2}
     - target: {fileID: -7552582706839291426, guid: 3c05494e72196914e8a75e6f8ac65c8b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -68,6 +72,26 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6078998705782661861, guid: 3c05494e72196914e8a75e6f8ac65c8b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c25a5dceaaa8224898213ada2bb1fc4, type: 2}
+    - target: {fileID: -4618077786860769293, guid: 3c05494e72196914e8a75e6f8ac65c8b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c25a5dceaaa8224898213ada2bb1fc4, type: 2}
+    - target: {fileID: -717517989960872951, guid: 3c05494e72196914e8a75e6f8ac65c8b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c25a5dceaaa8224898213ada2bb1fc4, type: 2}
+    - target: {fileID: 7943090490930505159, guid: 3c05494e72196914e8a75e6f8ac65c8b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c25a5dceaaa8224898213ada2bb1fc4, type: 2}
+    - target: {fileID: 8438667821567469668, guid: 3c05494e72196914e8a75e6f8ac65c8b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c25a5dceaaa8224898213ada2bb1fc4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
