@@ -41,7 +41,7 @@ MonoBehaviour:
       - rid: 8416548450621718553
       - rid: 8416548450621718554
       - rid: 8416548450621718555
-      - rid: 8416548450621718556
+      - rid: 8416548451856154674
       - rid: 8416548450621718557
       - rid: 8416548450621718558
       - rid: 8416548450621718559
@@ -150,11 +150,6 @@ MonoBehaviour:
         m_StripUnusedPostProcessingVariants: 1
         m_StripUnusedVariants: 1
         m_StripScreenCoordOverrideVariants: 1
-    - rid: 8416548450621718556
-      type: {class: URPDefaultVolumeProfileSettings, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
-      data:
-        m_Version: 0
-        m_VolumeProfile: {fileID: 11400000, guid: 6ff924b41717c7945861030d139b17d7, type: 2}
     - rid: 8416548450621718557
       type: {class: RenderGraphSettings, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -239,3 +234,8 @@ MonoBehaviour:
         m_ExportShaderVariants: 1
         m_ShaderVariantLogLevel: 0
         m_StripRuntimeDebugShaders: 1
+    - rid: 8416548451856154674
+      type: {class: URPDefaultVolumeProfileSettings, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
+      data:
+        m_Version: 0
+        m_VolumeProfile: {fileID: 11400000, guid: 6ff924b41717c7945861030d139b17d7, type: 2}
