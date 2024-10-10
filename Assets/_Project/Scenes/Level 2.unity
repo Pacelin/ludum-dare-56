@@ -1292,6 +1292,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2239425209570884756, guid: 92a47daadba57ff4b8dfe186ebe38002, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
+    - target: {fileID: 2798895800118060067, guid: 92a47daadba57ff4b8dfe186ebe38002, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
+    - target: {fileID: 3647327168861034187, guid: 92a47daadba57ff4b8dfe186ebe38002, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
     - target: {fileID: 3752282483018226395, guid: 92a47daadba57ff4b8dfe186ebe38002, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.84
@@ -1336,6 +1348,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss Level 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7155978687289974015, guid: 92a47daadba57ff4b8dfe186ebe38002, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
+    - target: {fileID: 8676336038329782620, guid: 92a47daadba57ff4b8dfe186ebe38002, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
+    - target: {fileID: 8898689778115114289, guid: 92a47daadba57ff4b8dfe186ebe38002, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1412,7 +1436,7 @@ Camera:
   m_GameObject: {fileID: 741100196}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.17735851, g: 0.17735851, b: 0.17735851, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -1451,7 +1475,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &741100199
@@ -1483,9 +1507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
+  m_RenderShadows: 0
+  m_RequiresDepthTextureOption: 0
+  m_RequiresOpaqueTextureOption: 0
   m_CameraType: 0
   m_Cameras: []
   m_RendererIndex: -1
@@ -1494,7 +1518,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -2880,7 +2904,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: def38cd409d92ff489e001e10e0496e9, type: 2}
+  sharedProfile: {fileID: 11400000, guid: beba2d89b16109942858bca3a90e47ed, type: 2}
 --- !u!4 &1724846220
 Transform:
   m_ObjectHideFlags: 0

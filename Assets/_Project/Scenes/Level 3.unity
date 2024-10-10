@@ -126,6 +126,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 596535147417457590, guid: 367912b97fb4d2e4091d29d277b25252, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
+    - target: {fileID: 2021295810906628446, guid: 367912b97fb4d2e4091d29d277b25252, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
+    - target: {fileID: 3568245309110881025, guid: 367912b97fb4d2e4091d29d277b25252, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
     - target: {fileID: 3752282483018226395, guid: 367912b97fb4d2e4091d29d277b25252, type: 3}
       propertyPath: m_LocalPosition.x
       value: 103.85
@@ -166,10 +178,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4937591554190387830, guid: 367912b97fb4d2e4091d29d277b25252, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
     - target: {fileID: 4945119012364083148, guid: 367912b97fb4d2e4091d29d277b25252, type: 3}
       propertyPath: m_Name
       value: Boss Level 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6192029870578959012, guid: 367912b97fb4d2e4091d29d277b25252, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
+    - target: {fileID: 6266887252154377929, guid: 367912b97fb4d2e4091d29d277b25252, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ddbca10c0a1de84493b70553fc77674, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3101,7 +3125,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 6b6030cd2c1058346af832a4b4356973, type: 2}
+  sharedProfile: {fileID: 11400000, guid: beba2d89b16109942858bca3a90e47ed, type: 2}
 --- !u!4 &1724846220
 Transform:
   m_ObjectHideFlags: 0
